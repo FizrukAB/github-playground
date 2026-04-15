@@ -15,3 +15,5 @@ jobs:
         run: ls -la
       - name: Print success message
         run: echo "GitHub Actions works"
+      - name: Run Python file
+        run: python main.py
